@@ -11,7 +11,7 @@ console.log("About to execute query...");
 // console.log("Query: ", JSON.stringify(sampleQuery, null, 2));
 // console.log("Model: ", JSON.stringify(dvdrentalModel, null, 2));
 
-client.executeQuery(dvdrentalModel, sampleQuery)
+client.executeQuery(sampleQuery, dvdrentalModel)
     .then(result => {
         console.log('Query result:', result);
     })
