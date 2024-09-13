@@ -1,5 +1,5 @@
 const sampleQuery = {
-    columns: ['amount', 'payment_date'],
+    columns: ['Amount', 'Payment Date'],
     filters: [],
     limit: 100,
 };

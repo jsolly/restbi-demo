@@ -3,7 +3,7 @@ const { DatabaseType } = require('restbi-sdk');
 const connection = {
     id: '1',
     name: 'dvdrental',
-    host: 'localhost',
+    host: 'host.docker.internal',
     port: 5432,
     user: 'postgres',
     password: 'postgres',
